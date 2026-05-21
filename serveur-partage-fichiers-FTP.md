@@ -207,7 +207,7 @@ systemctl restart vsftpd
 ### 2. Comment lire les logs en temps réel ?
 Pour observer l'activité du serveur pendant les tests, l'administrateur peut exécuter cette commande dans son terminal SSH :
 
-``bash
+```bash
 tail -f /var/log/vsftpd.log
 ```
 
