@@ -105,7 +105,7 @@ Par défaut, un utilisateur FTP Linux peut naviguer dans l'intégralité du syst
 ### 1. Activation du Chroot dans /etc/vsftpd.conf
 Ajoutez ou décommentez ces lignes :
 
-``TOML
+```TOML
 # Enfermer les utilisateurs locaux dans leur répertoire personnel (chroot)
 chroot_local_user=YES
 
